@@ -5,7 +5,7 @@ Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: netrunner-core-desktop
+Package: netrunner-core
 Architecture: all
 Recommends: about-distro,
             alsa-utils,
