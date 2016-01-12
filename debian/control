@@ -1,11 +1,11 @@
-Source: netrunner-desktop
+Source: netrunner-core
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: netrunner-desktop
+Package: netrunner-core-desktop
 Architecture: all
 Recommends: about-distro,
             alsa-utils,
@@ -132,7 +132,7 @@ Replaces: kubuntu-desktop, plasma-netbook
 Description: Meta package for the Netrunner desktop environment
    Meta package for the Netrunner desktop environment
 
-Package: netrunner-arm
+Package: netrunner-core-arm
 Architecture: all
 Recommends: about-distro,
             alsa-utils,
