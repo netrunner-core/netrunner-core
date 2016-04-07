@@ -200,9 +200,7 @@ Recommends: about-distro,
             partitionmanager,
             pavucontrol,
             phonon,
-            phonon-backend-gstreamer,
             phonon4qt5,
-            phonon4qt5-backend-gstreamer,
             plasma-dataengines-addons,
             plasma-nm,
             plasma-runners-addons,
@@ -232,19 +230,21 @@ Recommends: about-distro,
             x11vnc,
             xdg-user-dirs,
             xvfb,
-            yakuake,
-            zram-config
+            yakuake
 Depends: console-data,
          console-setup,
          kbd,
          kwin-x11,
+         phonon-backend-gstreamer,
+         phonon4qt5-backend-gstreamer,
          plasma-desktop,
          plasma-framework,
          sddm,
          simplemenu,
          xorg,
          xserver-xorg,
-         xserver-xorg-video-all
+         xserver-xorg-video-all,
+         zram-config
 Conflicts: kubuntu-desktop, plasma-netbook
 Replaces: kubuntu-desktop, plasma-netbook
 Description: Meta package for the Netrunner ARM environment
