@@ -7,8 +7,7 @@ Standards-Version: 3.7.2
 
 Package: netrunner-core
 Architecture: all
-Recommends: about-distro,
-            alsa-utils,
+Recommends: alsa-utils,
             apt-xapian-index,
             ark,
             baloo-kf5,
@@ -128,8 +127,7 @@ Description: Meta package for the Netrunner desktop environment
 
 Package: netrunner-core-arm
 Architecture: all
-Recommends: about-distro,
-            alsa-utils,
+Recommends: alsa-utils,
             apt-xapian-index,
             ark,
             base-files (>= 9),
