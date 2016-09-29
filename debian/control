@@ -10,6 +10,7 @@ Architecture: all
 Recommends: alsa-utils,
             apt-xapian-index,
             ark,
+            artwork-lnf-netrunner-core,
             artwork-plymouth-theme-netrunner-black,
             baloo-kf5,
             base-files (>= 9),
