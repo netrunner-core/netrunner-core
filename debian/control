@@ -10,6 +10,7 @@ Architecture: all
 Recommends: alsa-utils,
             apt-xapian-index,
             ark,
+            artwork-plymouth-theme-netrunner-black,
             baloo-kf5,
             base-files (>= 9),
             bluedevil,
@@ -125,4 +126,3 @@ Conflicts: kubuntu-desktop, plasma-netbook
 Replaces: kubuntu-desktop, plasma-netbook
 Description: Meta package for the Netrunner desktop environment
    Meta package for the Netrunner desktop environment
-
