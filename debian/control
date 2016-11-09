@@ -24,6 +24,7 @@ Recommends: alsa-utils,
             desktop-file-utils,
             dolphin,
             ffmpegthumbnailer,
+            ffmpegthumbs,
             firefox-plasma,
             firmware-linux-nonfree,
             firmware-misc-nonfree,
@@ -50,7 +51,6 @@ Recommends: alsa-utils,
             kde-telepathy-contact-list,
             kdenetwork-filesharing,
             kdesudo,
-            kffmpegthumbnailer,
             khelpcenter,
             khotkeys,
             kinfocenter,
@@ -130,7 +130,10 @@ Depends: console-data,
          xorg,
          xserver-xorg,
          xserver-xorg-video-all
+Breaks: kffmpegthumbnailer (<< 2.1.0+p8+git20161003.1141)
 Conflicts: kubuntu-desktop, plasma-netbook
-Replaces: kubuntu-desktop, plasma-netbook
+Replaces: kffmpegthumbnailer (<< 2.1.0+p8+git20161003.1141),
+          kubuntu-desktop,
+          plasma-netbook
 Description: Meta package for the Netrunner desktop environment
    Meta package for the Netrunner desktop environment
